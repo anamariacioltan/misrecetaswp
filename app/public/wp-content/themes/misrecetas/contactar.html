@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Mis Recetas</title>
+        <meta name="wiewport" content="with=device-width, initial-scale=1.0">
+        <meta name="description" content="Pagina web sobre mis recetas">
+        <meta name="keywords" content="Recetas, Gastronomia, Comida">
+        <link rel="icon" href="_resources/icono.png">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    </head>  
+    <body>
+    <div class="container">
+        <header id="mainheader" class=" fullrow block-center-row">
+            <img src="_resources/logo.png" alt="Mis recetas">
+        </header>
+
+        <nav class="nav-main font-l block-center-row mb2">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li class="separator">|</li>
+                <li><a href="recetas.html">Recetas</a></li>
+                <li class="separator">|</li>
+                <li>Contactar</li>
+            </ul>
+        </nav>
+
+        <main>
+            <form class="block-center-row font-l">
+                <div class=" col-desk6 col-tab8 col-mob12">
+                    <div style="text-align: right;" class="grid mb05">
+                        <label for="name" class="col-desk3 col-tab3 col-mob6"> Nombre: </label>
+                        <div class="col-desk9 col-tab9 col-mob6">
+                        <input id="name" class="input-basic" type="text" placeholder="Escribe tu nombre">
+                        </div>
+                    </div>
+            
+                    <div style="text-align: right;" class="grid mb05">
+                        <label for="email" class="col-desk3 col-tab3 col-mob6">Email: </label>
+                        <div class="col-desk9 col-tab9 col-mob6">
+                            <input id="email"  class="input-basic" type="email" placeholder="Escribe tu email">
+                        </div>
+                    </div>
+                
+                    <div style="text-align: right;" class="grid mb05">
+                        <label for="mesaje" class="col-desk3 col-tab3 col-mob6"> Mesaje: </label>
+                        <div class="col-desk9 col-tab9 col-mob6">
+                            <textarea id="mesaje"  rows="5" class="input-basic" placeholder="introduce tu mesaje"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="block-center-row mb05">
+                <button class="btn first font-l rounded"> Enviar mesaje </button>
+            </div> 
+        </main>
+        <footer id="footer" class=" fullrow block-center-row pad1">Mis recetas.com © 2021</footer>
+    </div>
+    </body>
+</html>

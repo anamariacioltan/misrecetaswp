@@ -1,0 +1,15 @@
+.btn {
+    padding: .3em .6em;
+    border: none;
+}
+
+.btn.first {
+    background-color:black;
+    color: yellow;
+}
+
+.btn.first:hover {
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}

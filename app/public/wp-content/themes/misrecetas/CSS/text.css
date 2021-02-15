@@ -1,0 +1,39 @@
+.font-xs {
+    font-size: 10px;
+}
+
+.font-basico {
+    font-size: 16px;
+}
+
+.font-m {
+    font-size: 18px;
+}
+
+ .font-l {
+     font-size: 20px;
+ }
+
+ .font-xl {
+     font-size: 22px;
+ }
+
+ .font-2xl {
+     font: 38px;
+ }
+
+ .font-3xl {
+     font-size: 40px;
+ }
+
+ .center-txt {
+     text-align: center;
+ }
+
+ .txt-left {
+     text-align: left;
+ }
+
+ .normal-line {
+     line-height: 1.4;
+ }

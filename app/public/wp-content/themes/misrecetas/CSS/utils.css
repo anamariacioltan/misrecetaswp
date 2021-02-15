@@ -1,0 +1,11 @@
+.darkbg {
+    background-color: grey;
+}
+
+.lightbg {
+    background-color: gainsboro;
+}
+
+.rounded {
+    border-radius: 20px;
+}
